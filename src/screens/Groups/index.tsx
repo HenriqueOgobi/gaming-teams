@@ -1,16 +1,11 @@
-import { StyleSheet, Text, View } from 'react-native';
+import { Container, Title } from './styles';
 
-export  function Groups() {
+export function Groups() {
   return (
-      <Text style={styles.container}> Groups! Hello React-Native</Text>
+    <Container>
+      <Title>
+        Groups
+      </Title>
+    </Container>
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-   marginTop: 100,
-   justifyContent:'center',
-    color: 'black',
-   
-  },
-});
