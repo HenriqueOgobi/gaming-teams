@@ -20,9 +20,6 @@
       "@stoage/":[
         "./src/stoage/"
       ],
-      "@theme/":[
-        "./src/theme/"
-      ],
       "@utils/":[
         "./src/utils/"
       ],
